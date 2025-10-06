@@ -9,6 +9,7 @@ brew install pyenv-virtualenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+pyenv install 3.10.0
 pyenv virtualenv 3.10.0 myproject-env
 
 pip install jupyter
